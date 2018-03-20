@@ -177,6 +177,16 @@ Component video
 
 Component video is a video signal that has been split into two or more component channels. In popular use, it refers to a type of component analog video (CAV) information that is transmitted or stored as three separate signals. Component video can be contrasted with composite video (NTSC, PAL or SECAM) in which all the video information is combined into a single line level signal that is used in analog television.
 
+
+----
+
+
+**CONNECTORS**
+
+.. image:: images/connectors.jpg
+	:width: 600px
+	:class: aligncn
+
 ----
 
 **VGA CABLE**

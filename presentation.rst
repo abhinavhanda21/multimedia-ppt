@@ -22,7 +22,8 @@ In this presentation we are going to cover chapter: Video
 ----
 
 What is a Video?
-================================
+=======================
+
 
 Video can be defined as number of frammes per second. In other words, moving pictures with audio can be said to be as Video.
 
@@ -38,15 +39,13 @@ Video Display Progressive
 
 In this signals are displayed on the screen using a technology known as Progressive scan.
 
-Progressive scan
-----------------
+**Progressive scan**
 
-Its is a methods used for "painting" an image on a television screen, where the lines are drawn one at a time in sequential order.
-In other words, in progressive scan, the image lines (or pixel rows) are scanned in numerical order (1,2,3) down the screen from top to bottom wheras in interlaced scan, lines are drawn in an alternate order which are divided in 2 fields for a single frame (lines or rows 1,3,5, etc... followed by lines or rows 2,4,6).
-For example, with a progressive scan video at 60hz, the entire image would be refreshed 60 times per second. The fast transitions result in a smooth image.
+Its is a methods used for "painting" an image on a television screen, where the lines are drawn one at a time in sequential order. In other words, in progressive scan, the image lines (or pixel rows) are scanned in numerical order (1,2,3) down the screen from top to bottom wheras in interlaced scan, lines are drawn in an alternate order which are divided in 2 fields for a single frame (lines or rows 1,3,5, etc... followed by lines or rows 2,4,6).
 
 ----
 
+For example, with a progressive scan video at 60hz, the entire image would be refreshed 60 times per second. The fast transitions result in a smooth image.
 
 Progressive scan is a method used in computer monitors and high-end television displays. 
 To use and view progressive scanning technology the source and the display must both be progressive scan compatible.
@@ -55,14 +54,11 @@ To use and view progressive scanning technology the source and the display must�
 ----
 
 Interlaced Analog Broadcast TV Systems NTSC
-================================
+=================================================
 
 Analog TV signals, such as those from a local station, cable company, or VCR was displayed on a TV screen using a technology known as Interlaced Scan.
 
-Interlaced Scan
-----------------
-
-Interlaced scanning uses two fields to create a frame. One field contains all the odd lines in the image, the other contains all the even lines of the image. A television scans 60 fields every second (30 odd and 30 even). These two sets of 30 fields are combined to create a full frame every 1/30th of a second, resulting in a display of 30 frames per second. Drawbacks to interlaced scanning compared to progressive scanning include lower resolution and quality issues.
+Interlaced scanning uses two fields to create a frame. One field contains all the odd lines in the image, the other contains all the even lines of the image. A television scans 60 fields every second (30 odd and 30 even). These two sets of 30 fields are combined to create a full frame every 1/30th of a second, resulting in a display of 30 frames per second. 
 
 ----
 
@@ -77,8 +73,7 @@ Progressive vs Interlaced
 
 ----
 
-Why Progressive is better than Interlaced?
-================================
+**Why Progressive is better than Interlaced?**
 
 * more precise.
 * accurate.
@@ -86,8 +81,8 @@ Why Progressive is better than Interlaced?
 * higher resolution.
 
 .. image:: images/motion.jpg
-	:height: 478px
-	:width: 1200px
+	:height: 400px
+	:width: 500px
 	:class: aligncn
 
 ----
@@ -107,15 +102,6 @@ Why Progressive is better than Interlaced?
 
 ----
 
-
-There were two main interlaced scan systems in use:
-----------------
-1. NTSC
-2. PAL
-
-
-----
-
 NTSC
 =====================
 NTSC is based on a system of 525-lines, 60 fields/30 frames-per-second at 60Hz for transmission and display of video images. This is an interlaced system in which each frame is scanned in two fields of 262 lines, which is then combined to display a frame of video with 525 scan lines. Countries with an NTSC foundation are the U.S., Canada, Mexico, some parts of Central and South America, Japan, Taiwan, and Korea.
@@ -127,7 +113,7 @@ NTSC is based on a system of 525-lines, 60 fields/30 frames-per-second at 60Hz 
 Phase Alternating Line (PAL)
 ================================
 
-Phase Alternating Line (PAL)  is a colour encoding system for analogue television used in broadcast television systems in most countries broadcasting at 625-line / 50 field (25 frame) per second (576i).
+Phase Alternating Line (PAL)  is a colour encoding system for analogue television used in broadcast television systems in most countries broadcasting at 625-line / 50 field (25 frame) per second (576i). 
 
 ----
 
@@ -136,6 +122,18 @@ Phase Alternating Line (PAL)  is a colour encoding system for analogue televisio
 .. image:: images/2.png
 	:width: 1200px
 	:class: aligncn
+
+----
+
+
+Similar to the NTSC system, Phase Alternating Line makes use of a quadrature amplitude modulated subcarrier which carries the chrominance data added to the video signal. The frequency for PAL is 4.43361875 MHz, while it is 3.579545 MHz for NTSC. PAL scans the cathode ray tube 625 times horizontally to form the video image. This is similar to the SECAM system. PAL makes use of a screen resolution of 720 × 576 pixels. PAL video can be converted to NTSC with the addition of extra frames. This can be done with techniques such as adaptive motion interpolation or inter-field interpolation.
+
+----
+
+
+Compared to NTSC, PAL has a more detailed picture due to the higher number of scan lines. Additionally, hues are more stable in PAL than with NTSC. Higher levels of contrast and better color reproduction are also present in PAL. Automated color correction is possible in the PAL system, unlike NTSC, which makes use of manual color correction. In fact, PAL is considered to have better picture quality than NTSC.
+
+PAL has a slower frame rate, resulting in motion not being as smooth, and saturation varies at times between frames. The picture itself can appear to flicker at times. NTSC holds an edge over PAL when it comes to smoother pictures, especially with high-speed footage, due to its higher frame rate.
 
 ----
 

@@ -25,7 +25,8 @@ What is Video?
 Video can be defined as number of frammes per second. In other words, moving pictures with audio can be said to be as Video.
 
 .. image:: images/video.png
-	:width: 449px
+	:height: 293px
+	:width: 810px
 	:class: aligncn
 
 ----
@@ -44,7 +45,7 @@ For example, with a progressive scan video at 60hz, the entire image would be re
 ----
 
 
-Progressive scan is a method used in computer monitors and high-end television displays. Progressive scanning results in a more precise and detailed image on the screen.
+Progressive scan is a method used in computer monitors and high-end television displays. 
 To use and view progressive scanning technology the source and the display must both be progressive scan compatible.
 
 
@@ -61,6 +62,47 @@ Interlaced Scan
 Interlaced scanning uses two fields to create a frame. One field contains all the odd lines in the image, the other contains all the even lines of the image. A television scans 60 fields every second (30 odd and 30 even). These two sets of 30 fields are combined to create a full frame every 1/30th of a second, resulting in a display of 30 frames per second. Drawbacks to interlaced scanning compared to progressive scanning include lower resolution and quality issues.
 
 ----
+
+Progressive vs Interlaced
+================================
+
+
+.. image:: images/picdisplay.jpg
+	:height: 411px
+	:width: 480px
+	:class: aligncn
+
+----
+
+Why Progressive is better than Interlaced?
+================================
+
+* more precise.
+* accurate.
+* detailed image.
+* higher resolution.
+
+.. image:: images/motion.jpg
+	:height: 478px
+	:width: 1200px
+	:class: aligncn
+
+----
+
+1080p vs 1080i
+================================
+
+* p here stands for progressive scan.
+* i here stands for interlaced scan.
+
+**Youtube**
+.. image:: images/progressive.png
+	:height: 355px
+	:width: 391px
+	:class: aligncn
+
+----
+
 
 There were two main interlaced scan systems in use:
 ----------------

@@ -21,6 +21,16 @@ In this presentation we are going to cover chapter: Video
 
 ----
 
+Video Display Progressive
+================================
+
+In this, Progressive scan methods is used for "painting" an image on a television screen, where the lines are drawn in one at a time in sequential order.
+In other words, in progressive scan, the image lines (or pixel rows) are scanned in numerical order (1,2,3) down the screen from top to bottom wheras in interlaced scan, lines are drawn in an alternate order which are divided in 2 fields for a single frame (lines or rows 1,3,5, etc... followed by lines or rows 2,4,6).
+For example, with a progressive scan video at 60hz, the entire image would be refreshed 60 times per second. The fast transitions result in a smooth image.
+
+
+----
+
 Phase Alternating Line (PAL)
 ================================
 

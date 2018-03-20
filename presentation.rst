@@ -18,10 +18,12 @@ Gurnoor Singh - 1411254
 ----
 
 In this presentation we are going to cover chapter: Video 
+
 ----
 
-What is Video?
+What is a Video?
 ================================
+
 Video can be defined as number of frammes per second. In other words, moving pictures with audio can be said to be as Video.
 
 .. image:: images/video.png
@@ -38,6 +40,7 @@ In this signals are displayed on the screen using a technology known as Progress
 
 Progressive scan
 ----------------
+
 Its is a methods used for "painting" an image on a television screen, where the lines are drawn one at a time in sequential order.
 In other words, in progressive scan, the image lines (or pixel rows) are scanned in numerical order (1,2,3) down the screen from top to bottom wheras in interlaced scan, lines are drawn in an alternate order which are divided in 2 fields for a single frame (lines or rows 1,3,5, etc... followed by lines or rows 2,4,6).
 For example, with a progressive scan video at 60hz, the entire image would be refreshed 60 times per second. The fast transitions result in a smooth image.

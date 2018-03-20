@@ -1,5 +1,3 @@
-# 6month_training_presentationhttps:
-
 ## Installation 
 
 You will need pip3 in order to install hovercraft.

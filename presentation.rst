@@ -24,6 +24,10 @@ What is Video?
 ================================
 Video can be defined as number of frammes per second. In other words, moving pictures with audio can be said to be as Video.
 
+.. image:: images/video.png
+	:width: 449px
+	:class: aligncn
+
 ----
 
 Video Display Progressive

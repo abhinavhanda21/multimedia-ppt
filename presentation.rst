@@ -96,6 +96,7 @@ Why Progressive is better than Interlaced?
 * i here stands for interlaced scan.
 
 **Youtube**
+
 .. image:: images/progressive.png
 	:height: 355px
 	:width: 391px

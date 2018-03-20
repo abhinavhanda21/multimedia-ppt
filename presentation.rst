@@ -54,7 +54,7 @@ Composite video (one channel) is an analog video transmission (without audio) th
 S-Video
 =================
 
-S-Video (also known as separate video and Y/C[1]) is a signaling standard for standard definition video, typically 480i or 576i. By separating the black-and-white and coloring signals, it achieves better image quality than composite video, but has lower color resolution than component video.
+S-Video (also known as separate video and Y/C) is a signaling standard for standard definition video, typically 480i or 576i. By separating the black-and-white and coloring signals, it achieves better image quality than composite video, but has lower color resolution than component video.
 
 ----
 
@@ -94,6 +94,16 @@ HDMI (High-Definition Multimedia Interface)
 ===============================================
 
 HDMI is a proprietary audio/video interface for transmitting uncompressed video data and compressed or uncompressed digital audio data from an HDMI-compliant source device, such as a display controller, to a compatible computer monitor, video projector, digital television, or digital audio device. HDMI is a digital replacement for analog video standards.
+
+----
+
+Brief Intro to Signals
+=========================
+Analog and digital signals are used to transmit information, usually through electric signals. In both these technologies, the information, such as any audio or video, is transformed into electric signals.
+
+.. image:: images/7.jpeg
+	:width: 400px
+	:class: alignrt
 
 ----
 
@@ -138,7 +148,6 @@ DisplayPort (DP) is a digital display interface developed by a consortium of PC 
 With this, We complete my presentation.
 =======================================
 
-* **Source Code**: https://github.com/iamjagjeetubhi/parupkaar.org 
 
 ----
 

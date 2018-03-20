@@ -18,18 +18,61 @@ Gurnoor Singh - 1411254
 ----
 
 In this presentation we are going to cover chapter: Video 
+----
+
+What is Video?
+================================
+Video can be defined as number of frammes per second. In other words, moving pictures with audio can be said to be as Video.
 
 ----
 
 Video Display Progressive
 ================================
 
-In this, Progressive scan methods is used for "painting" an image on a television screen, where the lines are drawn in one at a time in sequential order.
+In this signals are displayed on the screen using a technology known as Progressive scan.
+
+Progressive scan
+----------------
+Its is a methods used for "painting" an image on a television screen, where the lines are drawn one at a time in sequential order.
 In other words, in progressive scan, the image lines (or pixel rows) are scanned in numerical order (1,2,3) down the screen from top to bottom wheras in interlaced scan, lines are drawn in an alternate order which are divided in 2 fields for a single frame (lines or rows 1,3,5, etc... followed by lines or rows 2,4,6).
 For example, with a progressive scan video at 60hz, the entire image would be refreshed 60 times per second. The fast transitions result in a smooth image.
 
+----
+
+
+Progressive scan is a method used in computer monitors and high-end television displays. Progressive scanning results in a more precise and detailed image on the screen.
+To use and view progressive scanning technology the source and the display must both be progressive scan compatible.
+
 
 ----
+
+Interlaced Analog Broadcast TV Systems NTSC
+================================
+
+Analog TV signals, such as those from a local station, cable company, or VCR was displayed on a TV screen using a technology known as Interlaced Scan.
+
+Interlaced Scan
+----------------
+
+Interlaced scanning uses two fields to create a frame. One field contains all the odd lines in the image, the other contains all the even lines of the image. A television scans 60 fields every second (30 odd and 30 even). These two sets of 30 fields are combined to create a full frame every 1/30th of a second, resulting in a display of 30 frames per second. Drawbacks to interlaced scanning compared to progressive scanning include lower resolution and quality issues.
+
+----
+
+There were two main interlaced scan systems in use:
+----------------
+1. NTSC
+2. PAL
+
+
+----
+
+NTSC
+=====================
+NTSC is based on a system of 525-lines, 60 fields/30 frames-per-second at 60Hz for transmission and display of video images. This is an interlaced system in which each frame is scanned in two fields of 262 lines, which is then combined to display a frame of video with 525 scan lines. Countries with an NTSC foundation are the U.S., Canada, Mexico, some parts of Central and South America, Japan, Taiwan, and Korea.
+
+
+----
+
 
 Phase Alternating Line (PAL)
 ================================

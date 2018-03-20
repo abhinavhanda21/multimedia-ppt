@@ -125,7 +125,6 @@ Phase Alternating Line (PAL)  is a colour encoding system for analogue televisio
 
 ----
 
-
 Similar to the NTSC system, Phase Alternating Line makes use of a quadrature amplitude modulated subcarrier which carries the chrominance data added to the video signal. The frequency for PAL is 4.43361875 MHz, while it is 3.579545 MHz for NTSC. PAL scans the cathode ray tube 625 times horizontally to form the video image. This is similar to the SECAM system. PAL makes use of a screen resolution of 720 × 576 pixels. PAL video can be converted to NTSC with the addition of extra frames. This can be done with techniques such as adaptive motion interpolation or inter-field interpolation.
 
 ----
@@ -137,8 +136,13 @@ PAL has a slower frame rate, resulting in motion not being as smooth, and satura
 
 ----
 
+TYPES OF VIDEO SIGNALS
+==========================
+
+Video signals can be organized in three different ways: Component video, S-video and Composite video.
+
 Composite video
-======================
+-----------------
 
 Composite video (one channel) is an analog video transmission (without audio) that carries standard definition video typically at 480i or 576i resolution. Video information is encoded on one channel, unlike the higher-quality S-video (two channels) and the even higher-quality component video (three or more channels).
 
@@ -153,7 +157,7 @@ Composite video (one channel) is an analog video transmission (without audio) th
 ----
 
 S-Video
-=================
+--------------
 
 S-Video (also known as separate video and Y/C) is a signaling standard for standard definition video, typically 480i or 576i. By separating the black-and-white and coloring signals, it achieves better image quality than composite video, but has lower color resolution than component video.
 
@@ -168,7 +172,7 @@ S-Video (also known as separate video and Y/C) is a signaling standard for stand
 ----
 
 Component video
-==========================
+---------------------
 
 
 Component video is a video signal that has been split into two or more component channels. In popular use, it refers to a type of component analog video (CAV) information that is transmitted or stored as three separate signals. Component video can be contrasted with composite video (NTSC, PAL or SECAM) in which all the video information is combined into a single line level signal that is used in analog television.

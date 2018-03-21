@@ -61,7 +61,7 @@ Analog Artifacts
 
 In film, artifacts such as scratches and flicker are commonly found, especially in older movies. 
 
-.. image:: images/analogarti.jpg
+.. image:: images/analogarti.JPG
 	:height: 889px
 	:width: 1354px
 	:class: aligncn

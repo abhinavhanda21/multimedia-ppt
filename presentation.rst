@@ -61,20 +61,18 @@ Analog Artifacts
 In film, artifacts such as scratches and flicker are commonly found, especially in older movies. 
 
 .. image:: images/analogarti.JPG
-	:height: 889px
-	:width: 1354px
+	:height: 600px
+	:width: 800px
 	:class: aligncn
 	
 ----
 
 Digital Artifacts
 ===================
-
 Artifacts are a natural byproduct of digital compression methods such as JPEG and MPEG, which permanently discard pixels. The greater the compression used, the more artifacts are likely, and fast motion sequences are a major contributor. As TV screens become larger, the distortions are more noticeable.
 
 .. image:: images/digiartifacts.jpg
-	:height: 400px
-	:width: 1024px
+	:width: 804px
 	:class: aligncn
 
 ----
@@ -94,8 +92,7 @@ Blocking Artifact
 A distortion that appears in compressed video material as abnormally large pixel blocks. It occurs when the encoder cannot keep up with the allocated bandwidth. It is especially visible with fast motion sequences or quick scene changes. It is a type of Digital Artifact.
 
 .. image:: images/blockarti1.jpg
-	:height: 433px
-	:width: 768px
+	:width: 600px
 	:class: aligncn
 
 ----
@@ -103,7 +100,6 @@ A distortion that appears in compressed video material as abnormally large pixel
 Video uses lossy compression, and the higher the compression rate, the more content is removed. At decompression, the output of certain decoded blocks makes surrounding pixels appear averaged together and look like larger blocks. As TVs get larger, blocking and other artifacts become more noticeable
 
 .. image:: images/blockarti2.jpg
-	:height: 246px
 	:width: 620px
 	:class: aligncn
 	

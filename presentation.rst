@@ -15,7 +15,99 @@ Gurnoor Singh - 1411254
 
 ----
 
-In this presentation we are going to cover chapter: Video 
+
+In this presentation we are going to cover chapter: Compression and Video 
+
+----
+
+Compression Ratio
+==================
+
+Compression ratio, also known as compression power, is a computer science term used to quantify the reduction in data-representation size produced by a data compression algorithm.
+It is used to approximate the algorithmic complexity.
+
+
+----
+
+Data compression ratio is defined as the ratio between the uncompressed size and compressed size
+
+.. image:: images/cratio.png
+	:height: 150px
+	:width: 810px
+	:class: aligncn
+
+Thus a representation that compresses a 10 MB file to 2 MB has a compression ratio of 10/2 = 5
+
+----
+
+Artifacts
+================
+
+A distortion in an image or sound caused by a limitation or malfunction in the hardware or software. Artifacts may or may not be easily detectable.
+
+----
+
+Types of Artifacts
+===================
+
+1. Analog Artifacts.
+2. Digital Artifacts.
+
+----
+
+Analog Artifacts
+==================
+
+In film, artifacts such as scratches and flicker are commonly found, especially in older movies. 
+
+.. image:: images/analogarti.JPG
+	:height: 889px
+	:width: 1354px
+	:class: aligncn
+	
+----
+
+Digital Artifacts
+===================
+
+Artifacts are a natural byproduct of digital compression methods such as JPEG and MPEG, which permanently discard pixels. The greater the compression used, the more artifacts are likely, and fast motion sequences are a major contributor. As TV screens become larger, the distortions are more noticeable.
+
+.. image:: images/digiartifacts.jpg
+	:height: 400px
+	:width: 1024px
+	:class: aligncn
+
+----
+
+Types of Digital Artifacts
+==========================
+
+* Blocking Artifacts
+* mosquito noise
+* Quantization error
+
+----
+
+Blocking Artifact
+================================
+
+A distortion that appears in compressed video material as abnormally large pixel blocks. It occurs when the encoder cannot keep up with the allocated bandwidth. It is especially visible with fast motion sequences or quick scene changes. It is a type of Digital Artifact.
+
+.. image:: images/blockarti1.jpg
+	:height: 433px
+	:width: 768px
+	:class: aligncn
+
+----
+
+Video uses lossy compression, and the higher the compression rate, the more content is removed. At decompression, the output of certain decoded blocks makes surrounding pixels appear averaged together and look like larger blocks. As TVs get larger, blocking and other artifacts become more noticeable
+
+.. image:: images/blockarti2.jpg
+	:height: 246px
+	:width: 620px
+	:class: aligncn
+	
+It is also known as macroblocking.
 
 ----
 

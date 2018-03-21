@@ -16,7 +16,76 @@ Gurnoor Singh - 1411254
 ----
 
 
-In this presentation we are going to cover chapter: Compression and Video 
+In this presentation we are going to cover chapter: Compression , Video and Multimedia (Networking) Systems.
+
+----
+
+
+Image Compression using DCT upon Various Quantization
+=========================================================
+
+Discrete cosine transform (DCT) is a widely compression technique for converting an image into elementary frequency
+components. However, level of quality and compression is desired, scalar multiples of the JPEG standard quantization may be used. In this paper, DCT method was applied to compress image under various level of quality. Different quantization matrices of DCT’s coefficients are used to improve level of quality and compression ratio of JPEG image.
+
+----
+
+
+Discrete Cosine Transform (DCT) is one of many transforms that takes its image and transforms it into a linear combination of weighted basis functions. These basis functions are commonly the frequency, like sine waves. 2-D DCT of an image is defined as in Eq.(1).
+
+.. image:: images/eq.png
+	:width: 800px
+	:class: aligncn
+
+----
+
+
+QUANTIZATION
+==============
+Quantization is the process of reducing the number of possible values of a quantity, thereby reducing the number of bits needed to represent it.
+
+----
+
+
+**Jpeg Standard Quantization**
+The JPEG standard quantization matrix of the DCT coefficients with a quality level of 50 provides high
+compression and excellent decompressed image quality. We can get on different level of quality and compression ratio by determine a suitable quantization matrix for DCT coefficients.
+
+.. image:: images/qu.png
+	:width: 400px
+	:class: aligncn
+
+----
+
+HUFFMAN CODING
+================
+Huffman coding is a form of statistical coding which attempts to reduce the amount of
+bits required to represent a string of symbols. The algorithm accomplishes its goals by allowing symbols to vary in length. Shorter codes are assigned to the most frequently used symbols, and longer codes to the symbols which appear less frequently in the string (that's where the statistical part comes in).
+
+
+----
+
+PROPOSED METHOD
+==================
+A remarkable and highly useful feature of JPEG process is that in quantization step. Varying levels of image
+compression and quality are obtained through selection of specific quantization matrices. This enables the user to decide on quality levels ranging from 1 (poorest) to 100 (Best Quality).The selection of Quantization matrix is depended on the variance of each block in image.
+
+
+----
+
+
+ALGORITHM
+===========
+
+The image is divided into (8×8) blocks of pixels. DCT is applied to each block from right to left, top to
+bottom. The variances of each DCT’s coefficients blocks are calculated. The blocks are divided into three classes based on value of their variance [high , medium , low]. Each class (high , medium , low) is compressed through corresponding Quantization matrix (Q90 , Q50 , Q10) respectively. The compressed blocks that constitute the image is encoded with Huffman code and stored in a drastically reduced amount of space. Finally the image is reconstructed through decompression using IDCT (Inverse Discrete Cosine Transform).
+
+----
+
+**ALGORITHM**
+
+.. image:: images/algo.png
+	:width: 900px
+	:class: aligncn
 
 ----
 

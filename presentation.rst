@@ -11,8 +11,6 @@ Abhinav Handa - 1411227
 
 Birjot Singh - 1411246
 
-Deepak Pruthi - 1411248
-
 Gurnoor Singh - 1411254
 
 ----
@@ -25,7 +23,7 @@ What is a Video?
 =======================
 
 
-Video can be defined as number of frammes per second. In other words, moving pictures with audio can be said to be as Video.
+Video can be defined as number of frames per second. In other words, moving pictures with audio can be said to be as Video.
 
 .. image:: images/video.png
 	:height: 293px
@@ -136,23 +134,29 @@ PAL has a slower frame rate, resulting in motion not being as smooth, and satura
 
 ----
 
+**NTSC VS PAL**
+
+.. image:: images/ntscvspal.jpeg
+	:width: 800px
+	:class: aligncn
+
+----
+
 TYPES OF VIDEO SIGNALS
 ==========================
 
 Video signals can be organized in three different ways: Component video, S-video and Composite video.
 
+.. image:: images/types.jpeg
+	:width: 400px
+	:class: aligncn
+
+----
+
 Composite video
 -----------------
 
 Composite video (one channel) is an analog video transmission (without audio) that carries standard definition video typically at 480i or 576i resolution. Video information is encoded on one channel, unlike the higher-quality S-video (two channels) and the even higher-quality component video (three or more channels).
-
-----
-
-**COMPOSITE VIDEO**
-
-.. image:: images/3.png
-	:width: 1200px
-	:class: aligncn
 
 ----
 
@@ -192,14 +196,6 @@ Component video is a video signal that has been split into two or more component
 **VGA CABLE**
 
 .. image:: images/Vga-cable.jpg
-	:width: 800px
-	:class: aligncn
-
-----
-
-**SCART**
-
-.. image:: images/SCART.jpg
 	:width: 800px
 	:class: aligncn
 

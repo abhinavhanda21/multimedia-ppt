@@ -40,6 +40,40 @@ Encoder and Decoder
 
 ----
 
+Color Spaces 
+================
+
+Color is the perceptual result of light in the visible region of the spectrum, having
+wavelengths in the region of 380 nm to 780 nm. The human retina has three
+types of color photoreceptor cells cone, which respond to incident radiation with
+somewhat different spectral response curves. Because there are exactly three
+types of color photoreceptor, three numerical components are necessary and
+theoretically sufficient to describe a color.
+
+----
+
+For example, Adobe RGB and sRGB are two different absolute color spaces, both based on the RGB color model. When defining a color space, the usual reference standard is the CIELAB or CIEXYZ color spaces, which were specifically designed to encompass all colors the average human can see.
+
+.. image:: images/Colorspace.png
+	:width: 400px
+	:class: aligncn
+
+----
+
+Conversion
+==================
+Color space conversion is the translation of the representation of a color from one basis to another. This typically occurs in the context of converting an image that is represented in one color space to another color space, the goal being to make the translated image look as similar as possible to the original.
+
+
+----
+
+RGB density
+================
+The RGB color model is implemented in different ways, depending on the capabilities of the system used. By far the most common general-used incarnation as of 2006 is the 24-bit implementation, with 8 bits, or 256 discrete levels of color per channel. Any color space based on such a 24-bit RGB model is thus limited to a range of 256×256×256 ≈ 16.7 million colors. Some implementations use 16 bits per component for 48 bits total, resulting in the same gamut with a larger number of distinct colors. 
+
+
+----
+
 
 Image Compression using DCT upon Various Quantization
 =========================================================

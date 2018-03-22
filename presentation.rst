@@ -20,6 +20,26 @@ In this presentation we are going to cover chapter: Compression , Video and Mult
 
 ----
 
+Encoder and Decoder
+======================
+
+In computers, encoding is the process of putting a sequence of characters (letters, numbers, punctuation, and certain symbols) into a specialized format for efficient transmission or storage. Decoding is the opposite process -- the conversion of an encoded format back into the original sequence of characters. Encoding and decoding are used in data communications, networking, and storage. The term is especially applicable to radio (wireless) communications systems.
+
+----
+
+The terms encoding and decoding are often used in reference to the processes of analog-to-digital conversion and digital-to-analog conversion. In this sense, these terms can apply to any form of data, including text, images, audio, video, multimedia, computer programs, or signals in sensors, telemetry, and control systems. Encoding should not be confused with encryption, a process in which data is deliberately altered so as to conceal its content. Encryption can be done without changing the particular code that the content is in, and encoding can be done without deliberately concealing the content.
+
+
+----
+
+Encoder and Decoder
+========================
+.. image:: images/encode.jpeg
+	:width: 800px
+	:class: aligncn
+
+----
+
 
 Image Compression using DCT upon Various Quantization
 =========================================================

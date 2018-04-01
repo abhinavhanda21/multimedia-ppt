@@ -7,9 +7,9 @@
 
 Shivam Aggarwal - 1411073
 
-Abhinav Handa - 1411227
-
 Birjot Singh - 1411246
+
+Deepak Pruthi - 1411248
 
 Gurnoor Singh - 1411254
 
@@ -29,6 +29,22 @@ In computers, encoding is the process of putting a sequence of characters (lette
 
 The terms encoding and decoding are often used in reference to the processes of analog-to-digital conversion and digital-to-analog conversion. In this sense, these terms can apply to any form of data, including text, images, audio, video, multimedia, computer programs, or signals in sensors, telemetry, and control systems. Encoding should not be confused with encryption, a process in which data is deliberately altered so as to conceal its content. Encryption can be done without changing the particular code that the content is in, and encoding can be done without deliberately concealing the content.
 
+
+----
+
+DIFFERENCE
+=============
+
+* Decoders may have more than one input line active at any given time but only one output line will be active. Encoders also may have more than one input line active and may have more than one output line active at any given time.
+
+* Decoders will have only one input line active but may have more than one output line active at any given time.
+
+----
+
+* Decoders may have more than one input line active but only one output line active at any given time. Encoders will have only one input active but may have more than one output line active at any given time.
+
+
+* Decoders may have only one input line and one output line active at any given time. Encoders may have more than one input and output lines active at any given time.
 
 ----
 
@@ -130,8 +146,15 @@ compression and quality are obtained through selection of specific quantization 
 ALGORITHM
 ===========
 
-The image is divided into (8×8) blocks of pixels. DCT is applied to each block from right to left, top to
-bottom. The variances of each DCT’s coefficients blocks are calculated. The blocks are divided into three classes based on value of their variance [high , medium , low]. Each class (high , medium , low) is compressed through corresponding Quantization matrix (Q90 , Q50 , Q10) respectively. The compressed blocks that constitute the image is encoded with Huffman code and stored in a drastically reduced amount of space. Finally the image is reconstructed through decompression using IDCT (Inverse Discrete Cosine Transform).
+* The image is divided into (8×8) blocks of pixels. DCT is applied to each block from right to left, top to bottom. 
+
+* The variances of each DCT’s coefficients blocks are calculated. 
+
+----
+
+* The blocks are divided into three classes based on value of their variance [high , medium , low]. Each class (high , medium , low) is compressed through corresponding Quantization matrix (Q90 , Q50 , Q10) respectively. 
+
+* The compressed blocks that constitute the image is encoded with Huffman code and stored in a drastically reduced amount of space. Finally the image is reconstructed through decompression using IDCT (Inverse Discrete Cosine Transform).
 
 ----
 
